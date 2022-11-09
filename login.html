@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Masai</h1>
+    <form id="form">
+        
+        <p>Email</p>
+        <input placeholder="Email" type="email" id="email">
+        <p>Pasword</p>
+        <input placeholder="Pasword" type="text" id="pasword">
+        <input type="submit" value="Log In">
+        <p>Don't have an account? <a href="index.html">Sign In</a></p>
+    </form>
+</body>
+
+</html>
+<!-- ------------------script work-------------- -->
+<script>
+    let strr = "succ"
+    let login_form = document.querySelector('#form');
+let pre = JSON.parse(localStorage.getItem("login_detials"));
+
+
+login_form.addEventListener("submit",login)
+ function login(event){
+    console.log(pre)
+    event.preventDefault();
+    let obj = {
+        email : login_form.email.value,
+        pasword : login_form.pasword.value
+    }
+    if(obj.email== "" || obj.pasword == ""){
+        alert("Please fill all the details.")
+    }else{
+        if(pre.email == obj.email && pre.pasword == obj.pasword){
+            
+                alert("Login success 🎉")
+                localStorage.setItem("success",strr)
+                
+                window.location.href="index.html"
+                 }else if(pre.email == obj.email && pre.pasword != obj.pasword){
+                     alert("Please enter correct Pasword.")
+                 }else if(pre.email != obj.email && pre.pasword == obj.pasword){
+                    alert("Please enter correct email.")
+                 }
+                 else if(pre.email != obj.email && pre.pasword != obj.pasword){
+                    alert("Please enter correct detials.")
+                 }
+ 
+    }
+    // let signin = document.querySelector("#signin").innerText
+    // console.log(signin)
+}
+</script>
