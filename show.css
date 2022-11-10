@@ -1,0 +1,275 @@
+#nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #6c757d;
+}
+#nav>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    
+}
+#nav>div:nth-child(1)>div{
+  color: white;
+    font-size: 20px;
+}
+#logo{
+    margin-right: 15px;
+    
+}
+#logo>img{
+    height: 60px;
+}
+.dropdown{
+border: none;
+background-color: #6c757d;
+
+
+}
+#bar{
+background-color: #6c757d;
+width: 60px;
+border: none;
+padding: 10px;
+}
+#bar:hover{
+background-color:#455A64 ;
+}
+/* #barr>img{
+background-color: white;
+} */
+.para{
+text-align: center;
+}
+.offcanvas-body,.offcanvas-header{
+background-color: #6c757d;
+color: white;
+}
+#money{
+width: 70px;
+height: auto;
+border: none;
+border-radius: 5px;
+background-color: #6c757d;
+color: white;
+padding: 10px;
+padding-top: 8px;
+padding-bottom: 13px;
+}
+#money:hover{
+background-color:#455A64 ;
+}
+
+/* -------------------------------------------------------nav bar css end --------------------------- */
+#bodyfull{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    height: auto;
+}
+#show_content{
+    width: 70%;
+    border: 1px solid gainsboro;
+    display: flex;
+    padding: 25px;
+}
+#book{
+    width: 30%;
+    border: 1px solid gainsboro;
+}
+#image{
+    display: block;
+width: 100%;
+height: 100;
+/* margin: auto; */
+}
+#name{
+font-size: 25px;
+}
+#location{
+    font-size: 35px;
+    font-weight: 600
+
+}
+#houset{
+font-size: 25px;
+}
+#members{
+font-weight: 500;
+}
+#comforts{
+font-size: 25px;
+}
+#price{
+    font-size: 30px;
+font-weight: 700;
+}
+#map{
+    display: block;
+    width: 60%;
+    height: 400px;
+    margin: auto;
+
+}
+/* ksjafknsalkfnlksanflksanlkfnlksafd */
+.child{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    }
+    input{
+    border: none;
+    }
+    select{
+    font-size: 50px;
+    border: none;
+    }
+    .child>div{
+    border:1px solid #6c757d;
+    
+    }
+    #inner_search{
+        width: 230px;
+    }
+    /* .common{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    } */
+    /* .common>div:nth-child(2){
+        width:auto;
+    } */
+    .common>div{
+    padding: 5px;
+    }
+    .imgas>img{
+    width: 50px;
+    height: 50px;
+    }
+    .search_bar{
+    padding: 10px;
+    width: auto;
+    margin: auto;
+    background-color: white;
+    }
+    #heading{
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    }
+    #heading>div>h1{
+    font-size: 25px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    
+    }
+    .banner_search{
+    /* display: block; */
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: auto;
+    margin-top: -350px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: ProximaNova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 100%;
+    max-width: 100%;
+    
+    }
+    .search_bar{
+        grid-column-start: 1;
+    grid-column-end: 8;
+    }
+    
+    #search_btn{
+        margin-top: 20px;
+        padding: 7px;
+    color: white;
+    background-color: rgb(11, 112, 195);
+    border: none;
+    padding-top: 6px;
+    width: 100%;
+    }
+    #search_btn:hover{
+        background-color: rgb(19, 142, 213);
+    }
+    /* #guest-child{
+    padding: px 0px;
+    } */
+    #guest{
+        margin-top: 20px;
+        width: auto;
+        /* margin-left: 130px; */
+        border: 1px solid gainsboro;
+
+    }
+    #search_var{
+    border: none;
+    padding: 0px;
+    }
+    #out{
+        display: block;
+        width: auto;
+        margin: auto;
+        border: 1px solid gainsboro;
+    }
+    #in{
+        display: block;
+        width: auto;
+        margin: auto;
+        border: 1px solid gainsboro;
+    }
+/* klasfdlashdlfnlasdhflasdnlfhsal; */
+
+
+
+/* function displaycont(data){
+    console.log(data.name)
+    let image = document.createElement("img")
+    image.setAttribute("src",data.img)
+    image.setAttribute("id","image")
+
+    let names = document.createElement("p")
+    names.innerText = data.name
+    names.setAttribute("id","name")
+
+    let locon = document.createElement("p")
+    locon.innerText = data.location
+    locon.setAttribute("id","location")
+
+    let typ = document.createElement("p")
+    typ.innerText = data.type
+    typ.setAttribute("id","houset")
+
+    let guest = document.createElement("p")
+    guest.innerText= data.guests_allowed
+    guest.setAttribute("id","members")
+
+    let facilites = document.createElement("p")
+    facilites.innerText = bag
+    facilites.setAttribute("id","comforts")
+
+    let amount = document.createElement("p")
+    amount.innerText= data.price
+    amount.setAttribute("id","price")
+
+    let map = document.createElement("img")
+    map.setAttribute("src",data.map)
+    map.setAttribute("id","map")
+
+    cont.append(image,names,locon,typ,guest,facilites,amount,map)
+
+} */
