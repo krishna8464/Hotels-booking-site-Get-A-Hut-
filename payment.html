@@ -4,9 +4,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6614217c3b.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="payment.css">
+    <title>GET A HUT</title>
+    <link rel="icon" type="image/x-icon" href="images/placeholder.png">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </head>
 <body>
-    hi there
+   <div class="sticky-top" id="nav">
+    <div>
+        <div id="logo"><img id="nav_img" src="images/placeholder.png" alt=""></div>
+        <div>GET A HUT</div>
+    </div>
+    <div> <h3 id="username"></h3></div>
+    <div id="login-1">
+       
+        <div class="dropdown">
+            <button id="barr" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img style="width: 30px;height: 30px;" src="images/user.png"/>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="signin.html" id="signin" class="dropdown-item" href="#">Sign-in</a></li>
+              <li><a href="login.html" id="login" class="dropdown-item" href="#">Log-in</a></li>
+              <li><a id="logout" class="dropdown-item" href="#">Log-Out</a></li>
+            </ul>
+
+            <select name="" id="money">
+                <option value="INR">INR</option>
+                <option value="">CAD</option>
+                <option value="">DKK</option>
+                <option value="">HKD</option>
+                <option value="">NOK</option>
+                <option value="">PLN</option>
+                <option value="">THB</option>
+                <option value="">USD</option>
+                <option value="">AUD</option>
+                <option value="">CHF</option>
+                <option value="">EUR</option>
+                <option value="">HUF</option>
+                <option value="">JPY</option>
+                <option value="">NZD</option>
+                <option value="">SEX</option>
+                <option value="">TRY</option>
+                <option value="">BRL</option>
+                <option value="">CZK</option>
+                <option value="">GBP</option>
+                <option value="">ILS</option>
+                <option value="">MXN</option>
+                <option value="">PHP</option>
+                <option value="">SGD</option>
+                <option value="">TWD</option>
+            </select>
+           <!-- sflsafljsdl -->
+           <button id="bar" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+               <p class="para">ARE YOU A PROPERTY OWNER/MANAGER?</p>
+               <p class="para">List New Property</p>
+               <p class="para">Sign In To Your DashBoard</p>
+               <hr>
+               <br>
+               <br>
+               <p class="para">HOLIDAY HOMES FOR SALE</p>
+               <p class="para">Tripvillas Managed <br> Homes from A grade developers.Rentals guranteed</p>
+               <p class="para">Marketplace <br> See what homes are up for sale from different property owners.</p>
+               <hr>
+               <p class="para">About Us</p>
+               <p class="para">Privacy Policy</p>
+               <p class="para">Terms of Use</p>
+               <p class="para">FAQ's</p>
+               <p class="para">Contact Us</p>
+               <hr>
+               <p class="para">© Tripvillas Pte Ltd</p>
+            </div>
+            </div>
+           <!-- kjsdaflk;jsaldfjlo -->
+        </div>
+        
+    </div>
+   </div>
+   </div>
+</div>  
+<!-- -------------------------------------the nav bar ends here --------------------------------------------------------------->
+<div id="cont">
+    <div id="right">
+        <div class="info">
+            <h4>Book Tension Free</h4>
+            <br>
+            <ul>
+                <li>Your payments are secured by Tripvillas.</li>
+                <li>The amounts are released to verified owners in advance while new owners are paid post your check-in and confirmation.</li>
+                <li>You can contact us if you face any issues during checkin or your stay.</li>
+            </ul>
+        </div>
+        <!-- this div shoud have the display flex for handling the image and detials -->
+        <div class="properti">
+            <div id="image"></div>
+            <div class="detials">
+                <p class="name"></p>
+                <p class="location"></p>
+                <p class="type"></p>
+            </div>
+        </div>
+        <!-- this div also shoud have the detials of the property and display flex -->
+        <div class="infodet">
+            <div class="Sd">
+                <p>Check In</p>
+            </div>
+            <div class="Ed">
+                <p>Check Out</p>
+            </div>
+            <div id="GS">
+                <p>Total Amount</p>
+            </div>
+        </div>
+        <!---------------------------------------------- billing starts here------------------ --->
+    </div>
+    <div id="left">
+        <div class="tL">
+            <p><span id="bod">Book fast</span>. Your dates might get booked by someone else.</p>
+        </div>
+
+        <div class="bill">
+            <div class="ST"></div>
+            <div class="Tax"></div>
+            <div class="Cf"></div>
+            <hr>
+            <div class="totl"></div>
+            <hr>
+        </div>
+        <h1>Pay The Final Amount Here</h1>
+        <div class="addres">
+            <p>Enter your Any UPI Linked Number To Pay</p>
+            <input id="numbercatch" placeholder="Enter Your Number" type="number">
+            <button onclick="sendotp()">Send OTP</button><br>
+            <input type="number" id="subotp" placeholder="Please Enter Your OTP">
+            <button onclick="paytime()"> Verify OTP</button>
+        
+            
+        </div>
+    </div>
+</div>
+<div class="additionalinfo">
+    <div class="Rateplan">
+        <p>Rate Plan</p>
+        <p>No meals provided (European Plan)</p>
+    </div>
+    <div class="Rateplan">
+        <p>Stringent Cancellation Policy</p>
+        <p>No charges will be levied if booking is canceled 61 days prior to check-in. If cancellation is done between 30 to 60 days prior to check-in, 50% of the total booking amount will be charged. Post that, there will be no refund.</p>
+    </div>
+    <div class="Rateplan">
+        <p>House Rules</p>
+        <p>Loud Music not allowed. Pets not allowed. Stags / All Male Groups not allowed. Feel at home treat it as your own home dont abuse things appliances. kindly dont pluck the fruits and flowers in the complex. Drink responsibly and definitely not in the pool. Smokers may smoke in the common airy areas and the balcony only. Smoking in the bedrooms especially in the bed is strictly not acceptable. Please bear in mind that you are required to use the drying lines (Provided) to dry your clothes after wash. The apartment complex management does not allow clothes to be hung on the balcony railing The swimming pool is closed post 8 pm. Swimwear is Mandatory for use of pool. As required by law every Guest above the age of 18 must carry a Government issued Photo ID Card, and present it to the caretaker upon request, alongside signing the Guest Register with complete name, email ID and contact number</p>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
+<script src="payment.js"></script>
