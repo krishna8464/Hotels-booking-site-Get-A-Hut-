@@ -1,0 +1,174 @@
+#nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #6c757d;
+}
+#nav>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    
+}
+#nav>div:nth-child(1)>div{
+  color: white;
+    font-size: 20px;
+}
+#logo{
+    margin-right: 15px;
+    
+}
+#logo>img{
+    height: 50px;
+}
+.dropdown{
+border: none;
+background-color: #6c757d;
+
+
+}
+#bar{
+background-color: #6c757d;
+width: 60px;
+border: none;
+padding: 10px;
+}
+#bar:hover{
+background-color:#455A64 ;
+}
+/* #barr>img{
+background-color: white;
+} */
+.para{
+text-align: center;
+}
+.offcanvas-body,.offcanvas-header{
+background-color: #6c757d;
+color: white;
+}
+#money{
+width: 70px;
+height: auto;
+border: none;
+border-radius: 5px;
+background-color: #6c757d;
+color: white;
+padding: 10px;
+padding-top: 8px;
+padding-bottom: 13px;
+}
+#money:hover{
+background-color:#455A64 ;
+}
+
+/* -------------------------------------------------------nav bar css end --------------------------- */
+
+#cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    height: auto;
+    margin-top: 50px;
+}
+#right{display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+#left{
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 95%;
+}
+.info{
+    padding: 30px;
+    color: white;
+    background-color: #39f;
+    font-family: 200;
+}
+.info>ul>li{
+    font-weight: 500;
+}
+.properti{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.detials>p{
+    margin-left: 15px;
+    font-weight: 600;
+}
+.infodet{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.infodet>div{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+   padding: 40px 70px;
+   text-align: center;
+   margin: auto;
+}
+.additionalinfo{
+    width: 95%;
+    margin: auto;
+    margin-top: 60px;
+    font-weight: 400;
+}
+.tL{
+    /* width: 50px; */
+    padding: 10px;
+    color: #faa05a;
+    font-weight: 400;
+    /* text-size-adjust: 100%; */
+    background-color: rgb(250, 230, 191);
+}
+#bod{
+    font-weight:700 ;
+}
+.bill>div{
+    margin-top: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.addres{
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.addres>input{
+    padding: 15px;
+    margin-top: 10px;
+}
+.addres>button{
+    padding: 10px 15px;
+    background-color:#39f ;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+.addres>button:hover{
+    background-color: rgb(22, 118, 213);
+}
+/* .additionalinfo{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+} */
+.Rateplan>p:nth-child(1){
+    font-weight: 500;
+    font-size: 20px;
+}
+.Rateplan>p{
+    text-align: justify;
+    font-size: 18px;
+}

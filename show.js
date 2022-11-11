@@ -87,6 +87,7 @@ document.querySelector("form").addEventListener("submit",function(event){
     let image = LSData.img
     let name = LSData.name
     let typ = LSData.type
+    let locat = LSData.location
     let obj = {
         image,
         name,
@@ -94,6 +95,7 @@ document.querySelector("form").addEventListener("submit",function(event){
         price,
         endDate,
         enterDate,
+        locat,
         numberof
     }
     if(enterDate === "" || endDate === "" || numberof === ""){
