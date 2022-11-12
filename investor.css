@@ -1,0 +1,70 @@
+#nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #6c757d;
+}
+#nav>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    
+}
+#nav>div:nth-child(1)>div{
+  color: white;
+    font-size: 20px;
+}
+#logo{
+    margin-right: 15px;
+    
+}
+#logo>img{
+    height: 50px;
+}
+.dropdown{
+border: none;
+background-color: #6c757d;
+
+
+}
+#bar{
+background-color: #6c757d;
+width: 60px;
+border: none;
+padding: 10px;
+}
+#bar:hover{
+background-color:#455A64 ;
+}
+/* #barr>img{
+background-color: white;
+} */
+.para{
+text-align: center;
+}
+.offcanvas-body,.offcanvas-header{
+background-color: #6c757d;
+color: white;
+}
+#money{
+width: 70px;
+height: auto;
+border: none;
+border-radius: 5px;
+background-color: #6c757d;
+color: white;
+padding: 10px;
+padding-top: 8px;
+padding-bottom: 13px;
+}
+#money:hover{
+background-color:#455A64 ;
+}
+
+/* -------------------------------------------------------nav bar css end --------------------------- */

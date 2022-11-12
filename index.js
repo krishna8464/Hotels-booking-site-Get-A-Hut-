@@ -327,80 +327,80 @@ let topmid = [
         name : "White Villas Shahapur",
         loc : "Shahapur, Maharashtra",
         msg : "Beautifully Designed Designer Villas Off The Mumbai Pune Expressway. Very Close To Adlabs Imagica.",
-        img1 : "images/img22/img1.jpeg",
-        img2 : "images/img22/img2.jpeg",
-        img3 : "images/img22/img3.jpeg",
-        img4 : "images/img22/img4.jpeg",
-        img5 : "images/img22/img5.jpeg",
-        img6 : "images/img22/img6.jpeg",
-        img7 : "images/img22/img7.jpeg",
-        img8 : "images/img22/img8.jpeg",
-        img9 : "images/img22/img9.jpeg",
-        map : "images/img22/map.png"
+        img1 : "images/img33/img1.jpeg",
+        img2 : "images/img33/img2.jpeg",
+        img3 : "images/img33/img3.jpeg",
+        img4 : "images/img33/img4.jpeg",
+        img5 : "images/img33/img5.jpeg",
+        img6 : "images/img33/img6.jpeg",
+        img7 : "images/img33/img7.jpeg",
+        img8 : "images/img33/img8.jpeg",
+        img9 : "images/img33/img9.jpeg",
+        map : "images/img33/map.png"
     },
     {
         img : "images/img4.jpeg",
         name : "White Villas Kasara",
         loc : "Kasara, Maharashtra",
         msg : "Beautifully Designed Designer Villas Off The Mumbai Pune Expressway. Very Close To Adlabs Imagica.",
-        img1 : "images/img11/img1.jpeg",
-        img2 : "images/img11/img2.jpeg",
-        img3 : "images/img11/img3.jpeg",
-        img4 : "images/img11/img4.jpeg",
-        img5 : "images/img11/img5.jpeg",
-        img6 : "images/img11/img6.jpeg",
-        img7 : "images/img11/img7.jpeg",
-        img8 : "images/img11/img8.jpeg",
-        img9 : "images/img11/img9.jpeg",
-        map : "images/img11/map.png"
+        img1 : "images/img44/img1.jpeg",
+        img2 : "images/img44/img2.jpeg",
+        img3 : "images/img44/img3.jpeg",
+        img4 : "images/img44/img4.jpeg",
+        img5 : "images/img44/img5.jpeg",
+        img6 : "images/img44/img6.jpeg",
+        img7 : "images/img44/img7.jpeg",
+        img8 : "images/img44/img8.jpeg",
+        img9 : "images/img44/img9.jpeg",
+        map : "images/img44/map.png"
     },
     {
         img : "images/img5.jpeg",
         name : "Puravankara Adora De Goa",
         loc : "Dabolim, Goa",
         msg : "Luxury Apartments 15mins From Dabolim Airport. Brought To You By The House Of Tata.",
-        img1 : "images/img22/img1.jpeg",
-        img2 : "images/img22/img2.jpeg",
-        img3 : "images/img22/img3.jpeg",
-        img4 : "images/img22/img4.jpeg",
-        img5 : "images/img22/img5.jpeg",
-        img6 : "images/img22/img6.jpeg",
-        img7 : "images/img22/img7.jpeg",
-        img8 : "images/img22/img8.jpeg",
-        img9 : "images/img22/img9.jpeg",
-        map : "images/img22/map.png"
+        img1 : "images/img55/img1.jpeg",
+        img2 : "images/img55/img2.jpeg",
+        img3 : "images/img55/img3.jpeg",
+        img4 : "images/img55/img4.jpeg",
+        img5 : "images/img55/img5.jpeg",
+        img6 : "images/img55/img6.jpeg",
+        img7 : "images/img55/img7.jpeg",
+        img8 : "images/img55/img8.jpeg",
+        img9 : "images/img55/img9.jpeg",
+        map : "images/img55/map.png"
     },
     {
         img : "images/img6.jpeg",
         name : "Dreamz Shiroda",
         loc : "Shiroda, Maharashtra",
         msg : "Beautifully Designed Designer Villas Off The Mumbai Pune Expressway. Very Close To Adlabs Imagica.",
-        img1 : "images/img11/img1.jpeg",
-        img2 : "images/img11/img2.jpeg",
-        img3 : "images/img11/img3.jpeg",
-        img4 : "images/img11/img4.jpeg",
-        img5 : "images/img11/img5.jpeg",
-        img6 : "images/img11/img6.jpeg",
-        img7 : "images/img11/img7.jpeg",
-        img8 : "images/img11/img8.jpeg",
-        img9 : "images/img11/img9.jpeg",
-        map : "images/img11/map.png"
+        img1 : "images/img66/img1.jpeg",
+        img2 : "images/img66/img2.jpeg",
+        img3 : "images/img66/img3.jpeg",
+        img4 : "images/img66/img4.jpeg",
+        img5 : "images/img66/img5.jpeg",
+        img6 : "images/img66/img6.jpeg",
+        img7 : "images/img66/img7.jpeg",
+        img8 : "images/img66/img8.jpeg",
+        img9 : "images/img66/img9.jpeg",
+        map : "images/img66/map.png"
     },
     {
         img : "images/img7.jpeg",
         name : "Pristine Bay Mahabalipuram",
         loc : "Thenpattinam, Tamil Nadu",
         msg : "Luxury Apartments 15mins From Dabolim Airport. Brought To You By The House Of Tata.",
-        img1 : "images/img22/img1.jpeg",
-        img2 : "images/img22/img2.jpeg",
-        img3 : "images/img22/img3.jpeg",
-        img4 : "images/img22/img4.jpeg",
-        img5 : "images/img22/img5.jpeg",
-        img6 : "images/img22/img6.jpeg",
-        img7 : "images/img22/img7.jpeg",
-        img8 : "images/img22/img8.jpeg",
-        img9 : "images/img22/img9.jpeg",
-        map : "images/img22/map.png"
+        img1 : "images/img77/img1.jpeg",
+        img2 : "images/img77/img2.jpeg",
+        img3 : "images/img77/img3.jpeg",
+        img4 : "images/img77/img4.jpeg",
+        img5 : "images/img77/img5.jpeg",
+        img6 : "images/img77/img6.jpeg",
+        img7 : "images/img77/img7.jpeg",
+        img8 : "images/img77/img8.jpeg",
+        img9 : "images/img77/img9.jpeg",
+        map : "images/img77/map.png"
     }
 ]
 
@@ -433,10 +433,464 @@ function displaytopmid(data){
  }
  displaytopmid(topmid)
 
+
+ ////// investorss///////////////////////////////////////////////////
+
+
+ function investor(){
+    window.location.href = "investor.html"
+ }
       
+////////////////////investors//////////////////////////////////
+let holidayhom = [
+    {
+        cnt : "India",
+        No : "3262 holiday homes"
+    },
+    {
+        cnt : "Thailand",
+        No : "1284 holiday homes"
+    },
+    {
+        cnt : "Sri Lanka",
+        No : "646 holiday homes"
+    },
+    {
+        cnt : "Indonesia",
+        No : "622 holiday homes"
+    },
+    {
+        cnt : "Philippines",
+        No : "378 holiday homes"
+    },
+    {
+        cnt : "United Arab Emirates",
+        No : "146 holiday homes"
+    },
+    {
+        cnt : "Georgia",
+        No : "102 holiday homes"
+    },
+
+    {
+        cnt : "Turkey",
+        No : "70 holiday homes"
+    },
+    {
+        cnt : "Israel",
+        No : "53 holiday homes"
+    },
+
+    {
+        cnt : "Malaysia",
+        No : "49 holiday homes"
+    },
+    {
+        cnt : "Japan",
+        No : "46 holiday homes"
+    },
+    {
+        cnt : "Viet Nam",
+        No : "37 holiday homes"
+    },
+    {
+        cnt : "Cambodia",
+        No : "26 holiday homes"
+    },
+    {
+        cnt : "Nepal",
+        No : "22 holiday homes"
+    },
+    {
+        cnt : "Maldives",
+        No : "19 holiday homes"
+    },
+    {
+        cnt : "Taiwan, Province Of China",
+        No : "17 holiday homes"
+    },
+    {
+        cnt : "Hong Kong Special Administrative Region Of China",
+        No : "16 holiday homes"
+    },
+    {
+        cnt : "Republic Of Korea",
+        No : "12 holiday homes"
+    },
+    {
+        cnt : "India",
+        No : "3262 holiday homes"
+    },
+    {
+        cnt : "Oman",
+        No : "7 holiday homes"
+    },
+    {
+        cnt : "Bangladesh",
+        No : "5 holiday homes"
+    }
+]
 
 
+ let sencnt = [
+    {
+        cnt : "Croatia",
+        No : "15594 holiday homes"
+    },
+    {
+        cnt : "Denmark",
+        No : "14385 holiday homes"
+    },
+    {
+        cnt : "Italy",
+        No : "9268 holiday homes"
+    },
+    {
+        cnt : "Spain",
+        No : "4737 holiday homes"
+    },
 
+    {
+        cnt : "France",
+        No : "3791 holiday homes"
+    },
+    {
+        cnt : "Switzeland",
+        No : "2770 holiday homes"
+    },
+    {
+        cnt : "Finland",
+        No : "2086 holiday homes"
+    },
+
+    {
+        cnt : "Germany",
+        No : "1910 holiday homes"
+    },
+    {
+        cnt : "Hungary",
+        No : "1260 holiday homes"
+    },
+    {
+        cnt : "Austria",
+        No : "1193 holiday homes"
+    },
+    {
+        cnt : "Greece",
+        No : "941 holiday homes"
+    },
+    {
+        cnt : "United Kingdom Of Great Britain And Northern Ireland",
+        No : "899 holiday homes"
+    },
+    {
+        cnt : "Sweden",
+        No : "677 holiday homes"
+    },
+    {
+        cnt : "Cyprus",
+        No : "593 holiday homes"
+    },
+
+    {
+        cnt : "Czech Republic",
+        No : "585 holiday homes"
+    },
+    {
+        cnt : "Portugal",
+        No : "566 holiday homes"
+    },
+    {
+        cnt : "Norway",
+        No : "513 holiday homes"
+    },
+    {
+        cnt : "Netherlands",
+        No : "491 holiday homes"
+    },
+    {
+        cnt : "Poland",
+        No : "308 holiday homes"
+    },
+
+    {
+        cnt : "Belgium",
+        No : "270 holiday homes"
+    },
+    {
+        cnt : "Slovakia",
+        No : "141 holiday homes"
+    },
+    {
+        cnt : "Slovenia",
+        No : "199 holiday homes"
+    },
+    {
+        cnt : "Ireland",
+        No : "68 holiday homes"
+    },
+    {
+        cnt : "Malta",
+        No : "64 holiday homes"
+    },
+    {
+        cnt : "Bugria",
+        No : "63 holiday homes"
+    },
+    {
+        cnt : "Ukraine",
+        No : "47 holiday homes"
+    },
+    {
+        cnt : "Montenegro",
+        No : "39 holiday homes"
+    },
+    {
+        cnt : "Albania",
+        No : "34holiday homes"
+    },
+
+    {
+        cnt : "Bosnia And Herzegovina",
+        No : "25holiday homes"
+    },
+    {
+        cnt : "Romania",
+        No : "17 holiday homes"
+    },
+    {
+        cnt : "Luxembourg",
+        No : "12 holiday homes"
+    },
+    {
+        cnt : "Serbia",
+        No : "7 holiday homes"
+    },
+    {
+        cnt : "Iceland",
+        No : "6 holiday homes"
+    },
+    {
+        cnt : "Lithuania",
+        No : "6 holiday homes"
+    },
+    {
+        cnt : "The Former Yugosiav Republic Of Macedonia",
+        No : "6 holiday homes"
+    },
+    {
+        cnt : "Andorra",
+        No : "5 holiday homes"
+    }
+ ]
+
+ let thirdcnt = [
+    {
+        cnt : "United States Of America",
+        No : "3017 holiday homes"
+    },
+    {
+        cnt : "Mexixo",
+        No : "569 holiday homes"
+    },
+    {
+        cnt : "Dominican Republic",
+        No : "365 holiday homes"
+    },
+    {
+        cnt : "Cuba",
+        No : "257 holiday homes"
+    },
+    {
+        cnt : "Canada",
+        No : "164 holiday homes"
+    },
+    {
+        cnt : "Costa Rica",
+        No : "147 holiday homes"
+    },
+    {
+        cnt : "Jamaica",
+        No : "115 holiday homes"
+    },
+
+    {
+        cnt : "Aruba",
+        No : "37 holiday homes"
+    },
+    {
+        cnt : "Puerto Rico",
+        No : "37 holiday homes"
+    },
+    {
+        cnt : "Saint Martin",
+        No : "34 holiday homes"
+    },
+    {
+        cnt : "Sint Maarten",
+        No : "10 holiday homes"
+    },
+    {
+        cnt : "Belize",
+        No : "9 holiday homes"
+    },
+
+    {
+        cnt : "Panama",
+        No : "9 holiday homes"
+    },
+    {
+        cnt : "Curacao",
+        No : "6 holiday homes"
+    }
+ ]
+
+ let fortcnt = [
+    {
+        cnt : "Colombia",
+        No : "198 holiday homes"
+    },
+    {
+        cnt : "Chile",
+        No : "44 holiday homes"
+    },
+    {
+        cnt : "Brazil",
+        No : "39 holiday homes"
+    },
+    {
+        cnt : "Argentina",
+        No : "28 holiday homes"
+    },
+    {
+        cnt : "Peru",
+        No : "15holiday homes"
+    },
+    {
+        cnt : "Ecuador",
+        No : "7 holiday homes"
+    }
+
+ ]
+
+ let fifcnt = [
+    {
+        cnt : "Kenya",
+        No : "613holiday homes"
+    },
+    {
+        cnt : "south Africa",
+        No : "277 holiday homes"
+    },
+    {
+        cnt : "Morocco",
+        No : "197 holiday homes"
+    },
+    {
+        cnt : "Uganda",
+        No : "194 holiday homes"
+    },
+
+    {
+        cnt : "Mauritius",
+        No : "71 holiday homes"
+    },
+    {
+        cnt : "Tanzania",
+        No : "70 holiday homes"
+    },
+    {
+        cnt : "Rwanda",
+        No : "21 holiday homes"
+    },
+
+    {
+        cnt : "Burundi",
+        No : "19 holiday homes"
+    },
+    {
+        cnt : "Madagascar",
+        No : "14 holiday homes"
+    },
+
+    {
+        cnt : "Egypt",
+        No : "12 holiday homes"
+    },
+    {
+        cnt : "Tunisia",
+        No : "7 holiday homes"
+    },
+
+    {
+        cnt : "Seychelles",
+        No : "5 holiday homes"
+    }
+
+ ]
+
+ let sixcnt = [
+    {
+        cnt : "Australia",
+        No : "397 holiday homes"
+    },
+    {
+        cnt : "New Zealand",
+        No : "48 holiday homes"
+    },
+    {
+        cnt : "French Polynesia",
+        No : "18 holiday homes"
+    },
+
+ ]
+
+    console.log(holidayhom)
+    function sendit(col){
+        col.forEach((ele) => {
+            let div = document.createElement("div")
+            let para = document.createElement("h6")
+            para.innerText= ele.cnt
+            let para1 =  document.createElement("p")
+            para1.innerText = ele.No
+            div.append(para,para1)
+            document.querySelector(".contrys").append(div)
+
+        })
+    }
+    function Asia(){
+        document.querySelector(".contrys").innerHTML=""
+        sendit(holidayhom)
+    }
+
+    sendit(holidayhom)
+     function Europe(){
+        document.querySelector(".contrys").innerHTML=""
+        sendit(sencnt)
+     }
+
+     function Northaamerica(){
+        document.querySelector(".contrys").innerHTML=""
+        sendit(thirdcnt)
+     }
+
+     function Southamerica(){
+        document.querySelector(".contrys").innerHTML="";
+        sendit(fortcnt)
+     }
+
+     function Africa(){
+        document.querySelector(".contrys").innerHTML="";
+        sendit(fifcnt)
+     }
+
+     function Oceanta(){
+        document.querySelector(".contrys").innerHTML="";
+        sendit(sixcnt)
+     }
+
+
+ 
     
 
    
