@@ -101,17 +101,11 @@ function display(data){
         img9.setAttribute("src",data.img9)
         idiv9.append(img9)
 
-        // let btn1 = document.createElement("button")
-        // btn1.setAttribute("id","btn1")
-        // let doll = document.createElement("i")
-        // doll.setAttribute("class","fas fa-angle-left")
-        // btn1.append=doll
-
-        // let btn2 = document.createElement("button")
-        // btn2.setAttribute("id","btn2")
-        // let doll1 = document.createElement("i")
-        // doll.setAttribute("class","fas fa-angle-right")
-        // btn2.append=doll1
+        let mapdiv = document.createElement("div")
+        mapdiv.setAttribute("id","mapdiv")
+        let map = document.createElement("img")
+        map.setAttribute("src",data.map)
+        mapdiv.append(map)
 
 
         
@@ -119,6 +113,7 @@ function display(data){
         document.querySelector(".topshow").append(image)
         document.querySelector(".det").append(div1,div2,div3)
         document.querySelector("#allimg").append(idiv1,idiv2,idiv3,idiv4,idiv5,idiv5,idiv6,idiv7,idiv8,idiv9)
+        document.querySelector("#bot-child").append(mapdiv)
        
         
 
