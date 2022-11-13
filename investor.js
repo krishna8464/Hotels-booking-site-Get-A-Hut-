@@ -21,3 +21,4 @@ document.getElementById("nav_img").addEventListener("click",()=>{
     window.location.href="index.html"
 })
 //-------------------------------------------- nav barr ends ---------------------------------------------
+

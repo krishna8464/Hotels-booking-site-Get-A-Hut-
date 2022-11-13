@@ -1,5 +1,5 @@
 #nav{
-    position: sticky;
+    /* position: sticky; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +20,10 @@
   color: white;
     font-size: 20px;
 }
+#username{
+    display: block;
+    margin-left: 50px;
+  }
 #logo{
     margin-right: 15px;
     
@@ -46,8 +50,13 @@ background-color:#455A64 ;
 background-color: white;
 } */
 .para{
-text-align: center;
-}
+    text-align: center;
+    cursor: pointer;
+    }
+    .para:hover{
+        text-decoration: underline;
+        color: black;
+    }
 .offcanvas-body,.offcanvas-header{
 background-color: #6c757d;
 color: white;
@@ -114,10 +123,12 @@ background-color:#455A64 ;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
+    margin: auto;
+    margin-top: 20px;
 }
 .infodet>div{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-   padding: 40px 70px;
+   padding: 40px 60px;
    text-align: center;
    margin: auto;
 }
@@ -171,4 +182,99 @@ background-color:#455A64 ;
 .Rateplan>p{
     text-align: justify;
     font-size: 18px;
+}
+
+
+.bottom{
+    height: auto;
+    padding: 60px 150px;
+    background-color: black;
+}
+.content{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.manage{
+display: flex;
+}
+.manage>div>img{
+    width: 30px;
+    height: 30px;
+}
+.ifnot{
+    display: flex;
+    
+}
+.ifnot>div{
+    margin-left: 8px;
+}
+.ifnot>div>img{
+    width: 20px;
+    height: 20px;
+}
+.first-cell{
+width: 200px;
+}
+.first-cell>p{
+    font-size: 10px;
+    font-weight: 500;
+}
+.second-cell{
+    width: 200px;
+}
+.notif>img{
+    width: 200px;
+    height: 50px;
+}
+.images{
+    display: flex;
+}
+.bttn{
+    border: none;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.notif{
+    background-color: white;
+}
+@media screen and (min-width:701px) and (max-width:1000px) {
+    #cont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .infodet{
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        margin: auto
+        
+    }
+    .infodet>div{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+}
+@media screen and (min-width:100px) and (max-width:700px) {
+    #cont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .infodet{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        margin: auto;
+      
+    }
+    .infodet>div{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
 }

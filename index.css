@@ -1,5 +1,5 @@
 #nav{
-    position: sticky;
+    /* position: sticky; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,10 @@
 #logo>img{
     height: 50px;
 }
+#username{
+  display: block;
+  margin-left: 50px;
+}
 .dropdown{
 border: none;
 background-color: #6c757d;
@@ -47,6 +51,11 @@ background-color: white;
 } */
 .para{
 text-align: center;
+cursor: pointer;
+}
+.para:hover{
+  text-decoration: underline;
+color: black;
 }
 .offcanvas-body,.offcanvas-header{
 background-color: #6c757d;
@@ -266,6 +275,7 @@ width: 150px;
     width: 65%;
     height: auto;
     text-align: center;
+    gap: 15px;
 }
 #innertop_one{
     display: grid;
@@ -284,15 +294,29 @@ width: 150px;
     font-weight: 300;
 }
 #topadjustit>img{
-    position: relative;
-    width: 200px;
+   
+    width: 230px;
     height: 150px;
-    cursor: pointer;
-    filter: brightness(70%);
+    text-align: center;
+    margin: auto;
     border-radius: 5px;
+    filter: brightness(40%);
+    cursor: pointer;
+}
+#topchild_div{
+ width: 230px;
+ height: 150px;
+ position: relative;
+
 }
 .centered {
-  font-size: 20px;  
+  text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin-top: -90px;
+    width: 100%;
+    cursor: pointer;
   }
   .mid_thirdbot{
     width: 95%;
@@ -373,7 +397,7 @@ width: 150px;
  
   .mid_lastchild>div>div>img{
     width: 260px;
-    height: 200px;
+    height: 150px;
     text-align: center;
     margin: auto;
     border-radius: 5px;
@@ -391,9 +415,9 @@ width: 150px;
     position: absolute;
     color: white;
     font-size: 20px;
-    margin-top: -100px;
+    margin-top: -90px;
     width: 100%;
-    
+    cursor: pointer;
   }
 
   .bottom{
@@ -460,7 +484,69 @@ width: 150px;
     cursor: pointer;
   }
   
-  
+  #tect{
+    margin-top: 15px;
+    font-weight: 400;
+  }
+
+  .bottom-tip{
+    height: auto;
+    padding: 60px 150px;
+    background-color: black;
+}
+.content{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.manage{
+display: flex;
+}
+.manage>div>img{
+    width: 30px;
+    height: 30px;
+}
+.ifnot{
+    display: flex;
+    
+}
+.ifnot>div{
+    margin-left: 8px;
+}
+.ifnot>div>img{
+    width: 20px;
+    height: 20px;
+}
+.first-cell{
+width: 200px;
+}
+.first-cell>p{
+    font-size: 10px;
+    font-weight: 500;
+}
+.second-cell{
+    width: 200px;
+}
+.notif>img{
+    width: 200px;
+    height: 50px;
+}
+.images{
+    display: flex;
+}
+.bttn{
+    border: none;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.notif{
+    background-color: white;
+}
 
 
 
@@ -472,9 +558,102 @@ width: 150px;
         grid-column-start: 1;
         grid-column-end: 3;
     }
+    .top_second{
+      flex-direction: column;
+      text-align: center;
+    }
+
+
+    #topadjustit>img{
+   
+      width: 100%;
+  }
+  #topchild_div{
+   width: 100%;
+  }
+
+
+
+
+
+    .top_one{
+      width: 100%;
+    }
+    .top_two{
+      grid-template-columns: repeat(2,1fr);
+      width: 100%;
+    }
+    .mid_thirdbot{
+      flex-direction: column;
+    }
+    .mid_thir1{
+      width: 95%;
+      margin: auto;
+    }
+    .mid_thir2{
+      width: 95%;
+      margin: auto;
+    }
+    .mid_lat{
+      text-align: center;
+    }
+    .mid_lastchild{
+      grid-template-columns: repeat(2,1fr);
+      
+      width: 95%;
+      margin: auto;
+      /* gap: 20px; */
+    }
+    .contrys{
+      grid-template-columns: repeat(3,1fr);
+    }
   }
   @media screen and (min-width:100px) and (max-width:700px) {
     .child{
         grid-template-columns: repeat(1,1fr);
+        }
+        .top_second{
+          flex-direction: column;
+        }
+        #topadjustit>img{
+   
+          width: 100%;
+      }
+      #topchild_div{
+       width: 100%;
+      }
+        .top_one{
+          width: 100%;
+        }
+        .top_two{
+          grid-template-columns: repeat(1,1fr);
+          width: 100%;
+        }
+        .mid_thirdbot{
+          flex-direction: column;
+        }
+        .mid_thir1{
+          width: 95%;
+          margin: auto;
+        }
+        .mid_thir2{
+          width: 95%;
+          margin: auto;
+        }
+        .mid_lat{
+          text-align: center;
+        }
+        .mid_lastchild{
+          grid-template-columns: repeat(1,1fr);
+          
+          width: 95%;
+          margin: auto;
+          /* gap: 20px; */
+        }
+        .mid_lastchild>div{
+          margin-left: 25%;
+        }
+        .contrys{
+          grid-template-columns: repeat(1,1fr);
         }
 }

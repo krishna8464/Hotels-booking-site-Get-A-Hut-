@@ -59,7 +59,7 @@ var val = Math.floor(1000 + Math.random() * 9000);
 function sendotp(){
     let numb = document.querySelector("#numbercatch").value
     if(numb.length < 10 || numb.length >10){
-        alert("Please Enter Correct Number")
+        alert("Please Enter Phone Number")
     }else{
         alert(val) 
        localStorage.setItem("cretotp",val)
@@ -71,8 +71,13 @@ function sendotp(){
     if(enterotp !== recevied){
         alert("Entered Wrong OTP pease try Again!")
     }else{
-        alert("Hurray🎉 Rooms Are Booked")
+        setTimeout(() => {
+            alert("Hurray🎉 Rooms Are Booked")
+        window.location.href="paymentsucess.html"
         enterotp.innerText = ""
+            
+        }, 2000);
+        
 
     }
 }
