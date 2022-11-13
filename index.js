@@ -415,7 +415,7 @@ function displaytopmid(data){
         imgdiv.setAttribute("id","topadjustit")
         let imge = document.createElement("img")
         imge.setAttribute("src",ele.img)
-         imgdiv.append(imge)
+        //  imgdiv.append(imge)
         imge.addEventListener("click",function(){
             window.location.href="show2.html"
             localStorage.setItem("mid-selected",JSON.stringify(ele))
@@ -423,10 +423,11 @@ function displaytopmid(data){
         let name = document.createElement("p")
         name.innerText=ele.name
         name.setAttribute("class","centered")
+        imgdiv.append(imge,name)
 
         
 
-        div.append(imgdiv,name)
+        div.append(imgdiv)
         usesamedata.append(div)
 
     });
@@ -516,10 +517,6 @@ let holidayhom = [
     {
         cnt : "Republic Of Korea",
         No : "12 holiday homes"
-    },
-    {
-        cnt : "India",
-        No : "3262 holiday homes"
     },
     {
         cnt : "Oman",
@@ -890,7 +887,9 @@ let holidayhom = [
      }
 
 
- 
+ function changesource(){
+    window.location.href = "show3.html"
+ }
     
 
    

@@ -1,11 +1,9 @@
 body>h1{
-    display: block;
-    width: 15%;
-    margin-left: 680px;
+   text-align: center;
 }
 .cont{
     text-align: center;
-    width: 30%;
+    width: 40%;
     height: auto;
     margin: auto;
     margin: 50;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 30%;
+            margin: auto;
+            height: 100%;
+            align-items: center;
+            background-color: aquamarine;
+        }
+        #cont{
+            background-color: white;
+            text-align: center;
+            align-items: center;
+            padding: 20px;
+            padding-top: 40px;
+            margin-top: 100px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        #cont>h1{
+            font-size: 40px;
+            color: aquamarine;
+            font-weight: 500;
+        }
+        #cont>h4{
+            font-size: 25px;
+        }
+        #cont>p{
+            color: grey;
+        }
+        #cont>button{
+            font-size: 25px;
+            padding: 8px 40px;
+            border-radius: 20px;
+            border: none;
+            background-color: aquamarine;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY5mZhvGDybJRy00v4wo_iC9Z7dGVt5iKCnQ&usqp=CAU" alt="">
+        <h1>Thank You!</h1>
+        <h4>Payment Done Successfully</h4>
+        <p>You will be redirected to the home page shortly or click here to return  to home page</p>
+        <button onclick="gohome()">Home</button>
+    </div>
+</body>
+</html>
+<script>
+    function gohome(){
+        window.location.href = "index.html"
+    }
+    setTimeout(function(){
+            window.location.href = 'index.html';
+         }, 5000);
+</script>

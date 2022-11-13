@@ -20,6 +20,10 @@
   color: white;
     font-size: 20px;
 }
+#username{
+    display: block;
+    margin-left: 50px;
+  }
 #logo{
     margin-right: 15px;
     
@@ -46,8 +50,13 @@ background-color:#455A64 ;
 background-color: white;
 } */
 .para{
-text-align: center;
-}
+    text-align: center;
+    cursor: pointer;
+    }
+    .para:hover{
+        text-decoration: underline;
+        color: black;
+    }
 .offcanvas-body,.offcanvas-header{
 background-color: #6c757d;
 color: white;
@@ -136,12 +145,91 @@ background-color:#455A64 ;
 .child_child{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 30px
-    ;
+    gap: 30px;
 }
 #bot_map>h4{
     font-size: 25px;
     font-weight: 300;
 }
 
+.bottom{
+    height: auto;
+    padding: 60px 150px;
+    background-color: black;
+}
+.content{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.manage{
+display: flex;
+}
+.manage>div>img{
+    width: 30px;
+    height: 30px;
+}
+.ifnot{
+    display: flex;
+    
+}
+.ifnot>div{
+    margin-left: 8px;
+}
+.ifnot>div>img{
+    width: 20px;
+    height: 20px;
+}
+.first-cell{
+width: 200px;
+}
+.first-cell>p{
+    font-size: 10px;
+    font-weight: 500;
+}
+.second-cell{
+    width: 200px;
+}
+.notif>img{
+    width: 200px;
+    height: 50px;
+}
+.images{
+    display: flex;
+}
+.bttn{
+    border: none;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.notif{
+    background-color: white;
+}
 
+
+@media screen and (min-width:701px) and (max-width:1000px) {
+    #allimg{
+        grid-template-columns:repeat(1,1fr) ;
+    }
+    .child_child{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+}
+@media screen and (min-width:100px) and (max-width:700px) {
+    #allimg{
+        grid-template-columns:repeat(1,1fr) ;
+    }
+    
+    .child_child{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+}
