@@ -11,4 +11,5 @@ User name will be displayed after login.
 Can Book hotels through out the world
 Payment feature with generating random OTP
 # Demo
-Deployed Link : https://get-a-hut.netlify.app/
+Github link : https://github.com/krishna8464/-dreary-hand-8237
+Netlify Deployed Link : https://get-a-hut.netlify.app/
